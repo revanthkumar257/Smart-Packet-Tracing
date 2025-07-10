@@ -36,10 +36,9 @@ This project simulates how data packets are routed across a computer network. Us
 
 | Layer        | Technology                          |
 |--------------|--------------------------------------|
-| Frontend     | React.js + Konva.js (Canvas Drawing) |
+| Frontend     | React.js + Konva.js (Canvas Drawing)+Tailwind Css |
 | Backend      | Python (FastAPI or Flask)            |
 | Routing Logic| Pure Python DSA (Graph, Heap, Queue) |
-| Styling      | Tailwind CSS or Styled Components    |
 | Data Storage | JSON for sessions, CSV for logs      |
 
 ---
