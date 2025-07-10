@@ -80,3 +80,26 @@ Main interface includes:
 
 ---
 
+🧪 Simulation Instructions
+Add routers and PCs (each router connects to 3–4 PCs).
+
+Connect routers using weighted links (choose topology).
+
+Choose two PCs → define source and destination.
+
+Select routing algorithm or choose "Auto".
+
+Click Send Packet → packet animates across the routers.
+
+Observe logs, congestion, and metrics in real time.
+
+📈 Metrics Logged
+✅ Packets Delivered
+
+❌ Packets Dropped (TTL expired)
+
+📶 Average Latency
+
+🔄 Rerouted Packets
+
+📍 Link Congestion
