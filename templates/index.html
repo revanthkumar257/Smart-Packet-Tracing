@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Packet Routing Simulator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+</head>
+<body>
+    <h1>Smart Packet Routing Simulator</h1>
+    <div class="controls">
+        <label for="source">Source:</label>
+        <select id="source"><option value="PC1">PC1 (at R1)</option></select>
+        <label for="destination">Destination:</label>
+        <select id="destination"><option value="PC5">PC5 (at R5)</option></select>
+        <button id="find-path-btn">Find Path & Visualize</button>
+    </div>
+    <div id="network"></div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
